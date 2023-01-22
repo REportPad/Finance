@@ -9,8 +9,8 @@ void StatePrint(double total, double invest[], int num);
 
 int main(){
 	//initial value setting
-	double total = 3100;
-	double param[N] = {0.5, 1./6., 1. / 3.};//stock, inverse, cash
+	double total = 1000;
+	double param[N] = {0.2, 0.3, 0.5};
 	double invest[N] = {0,};
 	int lev[2] = {1,2};//leverage
 	for (int i = 0; i < N; ++i) {
