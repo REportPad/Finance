@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 data = pd.read_csv('kosdaq.csv')
 data_size = len(data)
-print(data_size)
+#print(data_size)
 
 data2 = []
 for i in range(0,data_size-1):#
@@ -12,8 +12,6 @@ for i in range(0,data_size-1):#
   else:
     a = ""
     c = ""
-    # d = ""
-    # arr =[4,2,2]
     x = b[:5]#2000-
     for j in range(5,len(b)):
       if b[j] != '-':
